@@ -21,7 +21,7 @@ if (num < 49) {
 switch (num) {
     case num < 49:
         console.log("Мало!");
-        break;
+    break;
     case num > 100:
         console.log("Много!");
         break;

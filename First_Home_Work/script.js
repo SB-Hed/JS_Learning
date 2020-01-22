@@ -21,7 +21,7 @@ console.log("Ответ на первый вопрос:", appData.expenses.quest
 console.log("Ответ на первый вопрос:", appData.expenses.question_2);
 
 //Вариант подсчета:
-var result = (appData.budget / 30) - appData.expenses.question_2;
+var result = (appData.budget - appData.expenses.question_2) / 30;
 console.log(result);
 
 alert("Ваш бюджет на один день: " + result);
